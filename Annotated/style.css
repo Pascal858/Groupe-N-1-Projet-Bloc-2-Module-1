@@ -87,26 +87,28 @@ body {
   border-radius: 12px;
 }
 
-
 /* services */
+/* Avec le padding 70px 60px ajoute de  l’espace dont 70px en faut et en bas et 60px à gauche et à droite puis met le fond en blanc.*/
 .d {
   padding: 70px 60px;
   background: white;
 }
 
+/Met la taille du texte à 28px, avec le  bold mets le texte en gras, avec center centre le texte, margin-bottom ajoute de l’espace en dessous puis avec le color met la couleur bleue foncé./
 .d0 {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
   color: #1a1a2e;
-}
 
+}
+/flex met les blocs côte à côte horizontalement puis gap : 24px ajoute de l’espace entre les blocs./
 .dd {
   display: flex;
   gap: 24px;
 }
-
+/flex: 1fait que chaque bloc prend la même largeur, background permet d’avoir un fond gris clair,  padding donne l’espace interne dans chaque bloc, border-radius: 10px conduit aux coins arrondis, puis text-align: center sert à avoir du contenu centré./
 .d1, .d2, .d3, .d4 {
   flex: 1;
   background: #f4f4f4;
@@ -114,19 +116,19 @@ body {
   border-radius: 10px;
   text-align: center;
 }
-
+/font-size: 36px agrandit les emojis et margin-bottom ajoute l’espace entre icône et texte/
 .d1i, .d2i, .d3i, .d4i {
   font-size: 36px;
   margin-bottom: 14px;
 }
-
+/*font-size: 17px règle la taille du texte, font-weight: bold met le texte en gras, color conduit à la couleur bleu foncé, et  margin-bottom met l’espace sous le titre. */
 .d1t, .d2t, .d3t, .d4t {
   font-size: 17px;
   font-weight: bold;
   color: #1a1a2e;
   margin-bottom: 10px;
 }
-
+/*font-size: 14px a rapport avec la taille du texte, color: #666 donne la couleur grise et line-height: 1.6 ajuste l’espace entre les lignes pour une meilleure lisibilité. */
 .d1p, .d2p, .d3p, .d4p {
   font-size: 14px;
   color: #666;
