@@ -170,45 +170,46 @@ body {
   font-weight: bold;
 }
 
+
 /* temoignages */
 .f {
-  padding: 70px 60px;
-  background: #1a1a2e;
+  padding: 70px 60px;/*ajoute de l'espace entre la partie réservée aux témoignages et les éléments qui y sont*/
+  background: #1a1a2e;/*fond couleur noir pour cette partie*/
 }
 
 .f0 {
-  font-size: 28px;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  margin-bottom: 40px;
+  font-size: 28px;/*définit une taille  aux lettres qui constituent le texte*/
+  font-weight: bold;/*met le texte en gras*/
+  color: white;/*le texte sera afiché avec la couleur blanche*/
+  text-align: center;/*le texte est centré par rapport à l'espace déterminé*/
+  margin-bottom: 40px;/*définit un espace entre cette partie et la partie suivante*/
 }
 
 .ff {
-  display: flex;
-  gap: 24px;
+  display: flex;/* met les blocs côte à côte*/
+  gap: 24px;/* définit un espace entre deux blocs */
 }
 
 .f1, .f2, .f3 {
-  flex: 1;
-  background: #16213e;
-  padding: 28px;
-  border-radius: 10px;
-  border-left: 4px solid #e94560;
+  flex: 1;/*chaque bloc occupe le même espace*/
+  background: #16213e;/*chaque bloc aura en fond la couleur bleu nuit */
+  padding: 28px;/*ajoute de l'espace entre chaque bloc et les éléments qu'il contient*/
+  border-radius: 10px;/*les coins de chaque bloc sont arrondis*/
+  border-left: 4px solid #e94560;/*attribue la couleur rouge à la bordure gauche*/
 }
 
 .f1t, .f2t, .f3t {
-  font-size: 14px;
-  color: #ccc;
-  line-height: 1.7;
-  font-style: italic;
-  margin-bottom: 16px;
+  font-size: 14px;/*définit une taille  aux lettres qui constituent le texte*/
+  color: #ccc;/*le texte sera affiché avec la couleur blanche*/
+  line-height: 1.7;/*définit la taille de l'interligne */
+  font-style: italic;/*le texte est en italique*/
+  margin-bottom: 16px;/*définit un espace entre cette partie et la partie suivante*/
 }
 
 .f1n, .f2n, .f3n {
-  font-size: 13px;
-  color: #e94560;
-  font-weight: bold;
+  font-size: 13px;/*définit une taille  aux lettres qui constituent le texte*/
+  color: #e94560;/*le texte sera affiché avec la couleur blanche*/
+  font-weight: bold;/*met le texte en gras*/
 }
 
 /* contact */
