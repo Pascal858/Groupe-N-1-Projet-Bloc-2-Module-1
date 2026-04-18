@@ -1,9 +1,9 @@
 /* style general */
+/* Il sélectionne tous les éléments de la page html et annule par défaut les marges externes et internes*/
 * {
   margin: 0;
   padding: 0;
 }
-
 }
 /* Il a appliqué par défaut une police Arial et une couleur noire à tout ce qui est texte sur la page.  */
 body {
