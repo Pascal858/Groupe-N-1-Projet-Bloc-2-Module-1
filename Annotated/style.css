@@ -136,6 +136,7 @@ body {
 }
 
 /* about */
+/* Il met la couleur de fond de la section hero en gris clair, applique une marge interne de  60px sur les côtés 70px en haut et en bas; il utilise la propriété display flex pour aligner horizontalement les éléments de la section et ropriété align-items: center pour centrer verticalement les éléments de la section .Il utilise la propriété gap: 40px pour répartir l'espace disponible entre les éléments de la section .*/
 .e {
   display: flex;
   padding: 70px 60px;
@@ -145,18 +146,19 @@ body {
 }
 
 .e1 {
-  flex: 1;
+  flex: 1;/* IL permet à l'image de se répartir équitablement sur l'espace disponible.*/
 }
-
+/*Il permet à l'image d'occuper toute la largeur disponible et arrondit les coins*/
 .eimg {
   width: 100%;
   border-radius: 12px;
 }
 
 .e2 {
-  flex: 1;
+  flex: 1; /* IL permet aux différents blocs de textes de se répartir équitablement l'espace disponible entre eux.*/
 }
 
+/* Il applique une taille de police de 28 px, met le texte en gras, une couleur noire au texte et une marge externe de 18px en bas.*/
 .e2t {
   font-size: 28px;
   font-weight: bold;
@@ -164,13 +166,14 @@ body {
   margin-bottom: 18px;
 }
 
+/* Il applique une taille de police de 15 px, une couleur grise au texte ,un espacement de ligne de 1.7 et une marge externe de 14px en bas.*/
 .e2p {
   font-size: 15px;
   color: #555;
   line-height: 1.7;
   margin-bottom: 14px;
 }
-
+/* Il place tous les éléments(ici des mots) côte à côte sur la même ligne, définit une marge externe de 14px en haut, la couleur bleu foncé pour le fond de cette partie, la couleur blanche pour le texte , une marge interne de 14px en haut et en bas puis de 26 px à gauche et à droite, arrondit les bords de la partie, supprime les décorations par défaut du texte et met le texte en gras .*/
 .e2b a {
   display: inline-block;
   margin-top: 10px;
@@ -181,6 +184,7 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+
 
 
 /* temoignages */
