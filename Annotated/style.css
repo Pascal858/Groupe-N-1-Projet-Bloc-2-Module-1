@@ -214,32 +214,32 @@ body {
 
 /* contact */
 .g {
-  padding: 70px 60px;
-  background: #f9f9f9;
+  padding: 70px 60px; /*ajoute de l'espace entre les éléments contenus dans la div class g*/
+  background: #f9f9f9;/*Fond de couleur blanc poour cette partie*/
 }
 
 .g0 {
-  font-size: 28px;
-  font-weight: bold;
-  color: #1a1a2e;
-  text-align: center;
-  margin-bottom: 36px;
+  font-size: 28px;/*définit une tailles aux lettres qui constituent le texte*/
+  font-weight: bold;/*met le texte en gras*/
+  color: #1a1a2e;/*le texte sera affiché en couleur bleu foncé*/
+  text-align: center;/*aligne le texte au centre*/
+  margin-bottom: 36px;/*définit un espace entre cette partie et la partie suivante*/
 }
 
 .gf {
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  max-width: 600px;/*limite la largeur du bloc*/
+  margin: 0 auto;/*centre le bloc de texte de façon horizontale*/
+  display: flex;/*active flexbox pour organiser les éléments*/
+  flex-direction: column;/*aligne les éléments verticalement*/
+  gap: 16px;/*espace entre chaque élément*/
 }
 
 .gi {
-  padding: 14px 16px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
-  outline: none;
+  padding: 14px 16px;/*ajoute de l'espace interne autour du texte*/
+  border: 1px solid #ddd;/*la bordure sera de couleur grise un peu pale*/
+  border-radius: 6px;/*les coins seront arrondi*/
+  font-size: 14px;/*taille de la police*/
+  outline: none;/*ici on supprime le contour bleu*/
 }
 
 .gt {
@@ -247,33 +247,33 @@ body {
   border: 1px solid #ddd;
   border-radius: 6px;
   font-size: 14px;
-  height: 140px;
-  resize: vertical;
+  height: 140px;/*la hauteur de la zone de texte*/
+  resize: vertical;/*ceci va permettre à l'utilisateur de réduire ou d'agrandir verticalement la zone de texte*/
   outline: none;
 }
 
-.gb {
-  background: #e94560;
-  color: white;
-  border: none;
+.gb { /*la partie du bouton*/
+  background: #e94560;/*couleur de fond rose*/ 
+  color: white;/*couleur blanc*/
+  border: none;/*pas de bordure*/
   padding: 14px;
   border-radius: 6px;
   font-size: 15px;
-  font-weight: bold;
-  cursor: pointer;
+  font-weight: bold;/*le texte en gras*/
+  cursor: pointer;/*permet de changer le curseur en main quand on passe dessus*/
 }
 
 .gb:hover {
-  background: #c73652;
+  background: #c73652;/*quand on passe dessus, la couleur devient plus foncé*/
 }
 
 /* footer */
 .h {
-  background: #0f0f1a;
+  background: #0f0f1a;/*fond noir*/
   padding: 30px 60px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between;/*espace les éléments aux extrémités*/
+  align-items: center;/*aligne de façon verticale au centre*/
 }
 
 .h1 {
@@ -281,18 +281,21 @@ body {
   font-size: 13px;
 }
 
-.h2 a {
+.h2 a { /*les liens du footer*/
   color: #aaa;
   text-decoration: none;
   margin-left: 18px;
   font-size: 13px;
 }
 
-.h2 a:hover {
-  color: white;
+.h2 a:hover { /*Ici il s'agit de créer un effet au survol*/
+  color: white;/* quand la souris passe dessus le lien devient blanc*/
 }
 
 .h3 {
   color: #aaa;
   font-size: 13px;
 }
+
+/* NB: vous verrez que certains endroits ne disposent pas de commentaires.
+Je préfère ne pas répéter les commentaires pour les variables déjà expliquées*/
